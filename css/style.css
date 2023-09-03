@@ -4,72 +4,163 @@
     --iris: #4D5AE5;
     --ocean: #404BBF;
     --cloud: #F4F4FD;
+    --slate: #434455; 
 }
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--navy-blue);
+    background-color: var(--white);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.visually-hiden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+.logo {
+        color: var(--navy-blue)
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
 
-.logo{
-
+}
+.logo .accent {
+        color: var(--iris);
 }
 .nav-link {
-    color: var(--navy-blue);
+        color: var(--navy-blue); 
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
 }
 .nav-link:active {
-    color: #404BBF;
+    color: var(--ocean);
 }
 .email:active {
-    color: #404BBF;
+    color: var(--ocean);
 }
 
 .section-button {
     background-color: var(--navy-blue); 
 }
 .header1 {
-    color: var(--white);
+        color: var(--white);
         text-align: center;
-    
-        /* Header 1 */
-        font-family: Roboto;
         font-size: 56px;
-        font-style: normal;
         font-weight: 700;
-        line-height: 60px;
-        /* 107.143% */
+        line-height: 1.07;
         letter-spacing: 1.12px;
 }
 .header-button {
-    color: var(--white);
-    background-color: var(--iris);
-    font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
+        color: var(--white);
+        background-color: var(--iris);
+        font-family: inherit;
+        font-size: 16px;        
         font-weight: 500;
-        line-height: 24px;
-        /* 150% */
+        line-height: 1.5;
         letter-spacing: 0.64px;
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    padding: 16px 32px;
-    cursor: pointer;
-}
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        padding: 16px 32px;
+        cursor: pointer;
+    }
 
 .header-button:hover{
     background-color: var(--ocean);
 }
 
-.section-advantages {
+/*section-advantages*/
 
+.advantage-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.advantage-text {
+    color: var(--slate);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 
-.section-our-team {
-
+/*section-our-team*/
+.team-header {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
 }
 
+.team-title {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+}
+.team-text {
+        color: var(--slate);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+}
+/*section-portfolio*/
 .section-portfolio {
 
 }
-
+.portfolio-header {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
+.portfolio-title {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+}
+.portfolio-text {
+        color: var(--slate);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+}
 .footer {
     background-color: var(--navy-blue);
 }
-.paragraf-footer {
+.logo-accent-footer {
     color: var(--cloud);
+}
+.paragraf-footer {
+        color: var(--cloud);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
 }
