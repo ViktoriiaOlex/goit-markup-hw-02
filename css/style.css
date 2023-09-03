@@ -84,7 +84,7 @@ email:hover {
     background-color: var(--ocean, #404BBF);
 }
 .header-button:active {
-    background-color: #404BBF;
+    background-color: var(--ocean, #404BBF);
 }
 /*section-advantages*/
 
@@ -103,9 +103,10 @@ email:hover {
 
 /*section-our-team*/
 .section-team {
-    background-color: var(--cloud) #F4F4FD;
+    background-color: var(--cloud, #F4F4FD);
 }
 .team-header {
+        color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
         font-size: 36px;
         font-weight: 700;
@@ -114,7 +115,7 @@ email:hover {
         text-transform: capitalize;
 }
 .team-list {
-    background-color:var(--white) #FFFFFF;
+    background: var(--white, #FFF);
 }
 .team-title {
         color: var(--NAVY-BLUE, #2E2F42);
@@ -136,6 +137,7 @@ email:hover {
 
 }
 .portfolio-header {
+        color: var(--navy-blue, #2E2F42);
         text-align: center;
         font-size: 36px;
         font-weight: 700;
