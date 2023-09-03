@@ -48,7 +48,7 @@ address {
 .adress-style {
         color: var(--SLATE, #434455);
 }
-.email {
+.contacts {
         color: var(--SLATE, #434455);
         font-family: Roboto;
         font-size: 16px;
@@ -57,20 +57,11 @@ address {
         line-height: 1.5;
         letter-spacing: 0.32px;
     }
-              
- .phone-number {
-        color: var(--SLATE, #434455);
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.32px;}
 
-.phone-number:hover, .email:hover {
+.contacts:hover{
     color:var(--ocean, #404bbf);
 }
-.phone-number:focus, .email:focus {
+.contacts:focus {
     color: var(--ocean, #404bbf);
 }
 
