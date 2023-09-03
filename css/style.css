@@ -70,7 +70,7 @@ address {
 .phone-number:hover, .email:hover {
     color:var(--ocean, #404bbf);
 }
-.phone-number:active, .email:active {
+.phone-number:focus, .email:focus {
     color: var(--ocean, #404bbf);
 }
 
