@@ -17,30 +17,19 @@ a {
 ul {
     list-style-type: none;
 }
-.visually-hiden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-}
+
 .logo {
-        color: var(--navy-blue)
-        font-family: Raleway;
+        color: var(--iris, #4D5AE5);
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 
 }
 .logo .accent {
-        color: var(--iris);
+        color: var(--navy-blue, #2e2f42);
 }
 .nav-link {
         color: var(--navy-blue); 
@@ -52,6 +41,21 @@ ul {
 .nav-link:active {
     color: var(--ocean);
 }
+.adress-style {
+    font-style: normal;
+}
+.email {
+    color: var(--SLATE, #434455);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+}
+email:hover {
+    color:var(--ocean)#404bbf;
+}
 .email:active {
     color: var(--ocean);
 }
@@ -59,7 +63,7 @@ ul {
 .section-button {
     background-color: var(--navy-blue); 
 }
-.header1 {
+.header-main {
         color: var(--white);
         text-align: center;
         font-size: 56px;
@@ -81,8 +85,8 @@ ul {
         cursor: pointer;
     }
 
-.header-button:hover{
-    background-color: var(--ocean);
+.header-button:hover, .header-button:active {
+    background-color: var(--ocean, #404BBF);
 }
 
 /*section-advantages*/
@@ -101,6 +105,9 @@ ul {
 }
 
 /*section-our-team*/
+.section-team {
+    background-color: var(--cloud) #F4F4FD
+}
 .team-header {
         text-align: center;
         font-size: 36px;
@@ -109,7 +116,9 @@ ul {
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
-
+.team-list {
+    background-color:var(--white) #FFFFFF;
+}
 .team-title {
         text-align: center;
         font-size: 20px;
@@ -149,10 +158,10 @@ ul {
         letter-spacing: 0.32px;
 }
 .footer {
-    background-color: var(--navy-blue);
+    background-color:var(--navy-blue);
 }
-.logo-accent-footer {
-    color: var(--cloud);
+.accent-second {
+    color: var(--cloud, #f4f4fd );
 }
 .paragraf-footer {
         color: var(--cloud);
