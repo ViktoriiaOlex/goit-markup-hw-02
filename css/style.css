@@ -96,7 +96,6 @@ ul {
 .advantage-text {
     color: var(--slate);
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
@@ -122,7 +121,6 @@ ul {
         color: var(--slate);
         text-align: center;
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
@@ -147,7 +145,6 @@ ul {
 .portfolio-text {
         color: var(--slate);
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
@@ -160,7 +157,6 @@ ul {
 .paragraf-footer {
         color: var(--cloud);
         font-size: 16px;
-        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
