@@ -45,18 +45,28 @@ a {
 
 .adress-style {
         color: var(--SLATE, #434455);
+}
+.email {
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.32px;
+    }
+              
+ .phone-number {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;}
+.phone-number:hover, .email:hover {
+    color:var(--ocean, #404bbf);
 }
-.adress-style:hover {
-    color:var(--ocean)#404bbf;
-}
-.adress-style:active {
-    color: var(--ocean);
+.phone-number:active, .email:active {
+    color: var(--ocean, #404bbf);
 }
 
 .section-button {
@@ -85,7 +95,7 @@ a {
     background-color: var(--ocean, #404BBF);
 }
 .header-button:active{
-    background-color: var(--ocean, #404BBF);
+    background-color: #404BBF;
 }
 /*section-advantages*/
 
