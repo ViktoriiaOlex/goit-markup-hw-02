@@ -36,17 +36,20 @@ a {
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
-.nav-link:active {
+.nav-link:focus {
     color: var(--ocean);
 }
 .nav-link:hover {
     color: #404bbf;
 }
-
+address {
+    font-style: normal;
+}
 .adress-style {
         color: var(--SLATE, #434455);
 }
 .email {
+        color: var(--SLATE, #434455);
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
@@ -56,12 +59,14 @@ a {
     }
               
  .phone-number {
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;}
+        color: var(--SLATE, #434455);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;}
+
 .phone-number:hover, .email:hover {
     color:var(--ocean, #404bbf);
 }
@@ -94,7 +99,7 @@ a {
 .header-button:hover{
     background-color: var(--ocean, #404BBF);
 }
-.header-button:active{
+.header-button:focus{
     background-color: #404BBF;
 }
 /*section-advantages*/
