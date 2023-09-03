@@ -89,6 +89,7 @@ email:hover {
 /*section-advantages*/
 
 .advantage-title {
+    color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -146,6 +147,7 @@ email:hover {
         text-transform: capitalize;
 }
 .portfolio-title {
+        color: var(--navy-blue, #2E2F42);
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
