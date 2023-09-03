@@ -39,11 +39,12 @@ a {
 .nav-link:active {
     color: var(--ocean);
 }
-.adress-style {
-    font-style: normal;
+.nav-link:hover {
+    color: #404bbf;
 }
-.email {
-    color: var(--SLATE, #434455);
+
+.adress-style {
+        color: var(--SLATE, #434455);
         font-family: Roboto;
         font-size: 16px;
         font-style: normal;
@@ -51,10 +52,10 @@ a {
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
-email:hover {
+.adress-style:hover {
     color:var(--ocean)#404bbf;
 }
-.email:active {
+.adress-style:active {
     color: var(--ocean);
 }
 
@@ -80,10 +81,10 @@ email:hover {
         cursor: pointer;
     }
 
-.header-button:hover {
+.header-button:hover{
     background-color: var(--ocean, #404BBF);
 }
-.header-button:active {
+.header-button:active{
     background-color: var(--ocean, #404BBF);
 }
 /*section-advantages*/
